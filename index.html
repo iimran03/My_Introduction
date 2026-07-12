@@ -4,7 +4,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My Introduction</title>
-   
+   <style>
+table, tr, td, th{
+        border: 1px solid black;
+        border-collapse: collapse;
+    }
+   </style>
 </head>
 <body>
     <h1 style="text-align: center;">MY PROFILE</h1>
@@ -18,8 +23,8 @@
     </details><br>
     <details>
         <summary>Qualifications</summary>
-        <table colspan="1" border="1" style="width: 100%; text-align: center;">
-            <caption>Qualification</caption>
+        <table>
+            <caption><b>Qualification</b></caption>
             <thead>
                 <tr>
                     <th>Qualification</th>
@@ -49,6 +54,14 @@
                 </tbody>
        </thead>
     </table>
+    </details><br>
+    <details>
+        <summary>Skills</summary>
+        <ul>
+            <li>HTML, CSS, JavaScript</li>
+            <li>React, Node.js</li>
+            <li>AWS, Web3</li>
+        </ul>
     </details>
 </body>
 </html>
